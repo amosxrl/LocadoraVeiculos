@@ -1,15 +1,15 @@
 public class Veiculos {
     private String placa;
-    private String fabricante;
+    private String marca;
     private String modelo;
     private int ano;
     private boolean disponivel;
-    // outros atributos relevantes
+
 
     //metodo construtor
-    public Veiculos(String placa, String fabricante, String modelo, int ano) {
+    public Veiculos(String placa, String marca, String modelo, int ano, boolean disponivel) {
         this.placa = placa;
-        this.fabricante = fabricante;
+        this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
         this.disponivel = disponivel;
@@ -23,11 +23,11 @@ public class Veiculos {
         this.placa = placa;
     }
 
-    public String getFabricante() {
+    public String getMarca() {
         return fabricante;
     }
 
-    public void setFabricante(String fabricante) {
+    public void setMarca(String marca) {
         this.fabricante = fabricante;
     }
 

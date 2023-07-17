@@ -1,3 +1,4 @@
+package model;
 public class Clientes {
     private String nome;
     private String cpf;

@@ -1,6 +1,7 @@
+package model;
 public class Veiculos {
     private String placa;
-    private String marca;
+    private String fabricante;
     private String modelo;
     private int ano;
     private boolean disponivel;
@@ -9,7 +10,6 @@ public class Veiculos {
     //metodo construtor
     public Veiculos(String placa, String marca, String modelo, int ano, boolean disponivel) {
         this.placa = placa;
-        this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
         this.disponivel = disponivel;

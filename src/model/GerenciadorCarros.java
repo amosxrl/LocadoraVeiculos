@@ -1,3 +1,4 @@
+package model;
 public class GerenciadorCarros {
     //Arquivo feito pra teste
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
+package model;
 import java.util.List;
+
 public class LocadoraVeiculos {
     private List<Veiculos> veiculosDisponiveis;
     private List<Clientes> clientes;
